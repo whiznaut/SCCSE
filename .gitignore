@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+
+venv/
+.env
+
+client/data_device_*/
+client/data/
+
+*.enc
+*.bin
+keys.json
+history.enc
+history_key.bin
