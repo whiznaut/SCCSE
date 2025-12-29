@@ -54,36 +54,6 @@ The application was developed as part of **CENG625 – Cryptography and Advanced
 
 ---
 
-## Architecture Overview
-
-The system is divided into **three primary layers**:
-
-┌──────────────────────────────────────────┐
-│                 UI Layer                 │
-│  • Tkinter Modernized GUI                │
-│  • Tabs, buttons, logs, indicators       │
-│  • Clipboard interaction                 │
-└──────────────────────▲───────────────────┘
-                       │
-┌──────────────────────┴───────────────────┐
-│         Application Logic Layer          │
-│  • Clipboard capture & injection         │
-│  • TTL enforcement                       │
-│  • Secure history management             │
-│  • Server communication (API client)     │
-│  • Device pairing orchestration          │
-└──────────────────────▲───────────────────┘
-                       │
-┌──────────────────────┴───────────────────┐
-│           Cryptography Layer             │
-│  • Hybrid encryption (X25519 + AES-GCM)  │
-│  • Digital signatures (Ed25519)          │
-│  • Key management & storage              │
-│  • Secure serialization & verification   │
-└──────────────────────────────────────────┘
-
-
-
 ## Cryptographic Design
 
 ### Algorithms Used
